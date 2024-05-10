@@ -1,6 +1,7 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "Hello",
 Text = "Cbin Hub",
+Icon = "rbxassetid://17433748013",
 Duration = Number,
 })
 getgenv().Server_Hop = true
