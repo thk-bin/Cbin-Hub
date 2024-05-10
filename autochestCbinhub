@@ -12,7 +12,7 @@ Duration = Number,
 })
 getgenv().Server_Hop = true
 getgenv().Chest_Farm = true
-getgenv().wait_Time = 10 -- Seconds
+getgenv().wait_Time = 25 -- Seconds
 
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
