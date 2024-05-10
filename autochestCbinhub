@@ -1,11 +1,11 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "Cbin Hub",
 Text = "Hello player executes",
-Icon = "rbxassetid://17433748013",
+Icon = "rbxassetid://17433748013",                
 Duration = Number,
 })
 game.StarterGui:SetCore("SendNotification", {
-Title = "Copy Link Sever Dis",
+Title = "Copy Link Sever Discord",
 Text = "https://discord.gg/ZDvf8wZw",
 Icon = "rbxassetid://17433748013",
 Duration = Number,
