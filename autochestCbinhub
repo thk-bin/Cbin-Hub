@@ -1,4 +1,4 @@
-_G.JoinTeam = "Pirates"
+_G.JoinTeam = "Pirates" -- Pirates / Marines
 _G.Stop_If_Has_Items = true
 
 getgenv().Server_Hop = true
@@ -7,7 +7,7 @@ getgenv().wait_Time = 25 -- Seconds
 
 game.StarterGui:SetCore("SendNotification", {
 Title = "Cbin Hub | COMMUNITY",
-Text = "Hello player",
+Text = "By: SenPai",
 Icon = "rbxassetid://17433748013",              
 Duration = Number,
 })
