@@ -1,3 +1,8 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = "Hello",
+Text = "Cbin Hub",
+Duration = Number,
+})
 getgenv().Server_Hop = true
 getgenv().Chest_Farm = true
 getgenv().wait_Time = 20-- Seconds
