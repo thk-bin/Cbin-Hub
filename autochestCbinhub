@@ -1,6 +1,7 @@
 _G.JoinTeam = "Pirates"
 _G.Stop_If_Has_Items = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thk-bin/Cbin-Hub/main/autochestCbinhub"))()
+
 getgenv().Server_Hop = true
 getgenv().Chest_Farm = true
 getgenv().wait_Time = 25 -- Seconds
