@@ -1,7 +1,13 @@
 game.StarterGui:SetCore("SendNotification", {
+Title = "𝘾𝙗𝙞𝙣 𝙃𝙪𝙗 | 𝘾𝙊𝙈𝙈𝙐𝙉𝙄𝙏𝙔",
+Text = "Hello player",
+Icon = "rbxassetid://17433748013",              
+Duration = Number,
+})
+game.StarterGui:SetCore("SendNotification", {
 Title = "Cbin Hub",
 Text = "Hello player executes",
-Icon = "rbxassetid://17433748013",                
+Icon = "rbxassetid://17433748013",              
 Duration = Number,
 })
 game.StarterGui:SetCore("SendNotification", {
