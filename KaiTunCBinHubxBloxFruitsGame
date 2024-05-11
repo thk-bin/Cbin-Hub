@@ -1,7 +1,7 @@
 _G.Color = Color3.fromRGB(255, 128, 0) -- สี Gui
-_G.imageLogo = "rbxassetid://13131915350" -- Logo Gui
+_G.imageLogo = "rbxassetid://17454552468" -- Logo Gui
 _G.Title = "Scripts Permissions V.1 ━" -- คำอธิบาย
-_G.NameHub = "CBin " -- ชื่อ Hub
+_G.NameHub = "CBin Hub" -- ชื่อ Hub
 -----------------------------------------------------------------
 
 
