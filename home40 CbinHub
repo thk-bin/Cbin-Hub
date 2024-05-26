@@ -1,4 +1,4 @@
-repeat wait(1) until game:IsLoaded()                              Alchemy
+repeat wait(1) until game:IsLoaded()
 local AlchemyNotify = function(Text_i,Duration_i)
     game.StarterGui:SetCore("SendNotification", {
         Title = "CBin Hub",
