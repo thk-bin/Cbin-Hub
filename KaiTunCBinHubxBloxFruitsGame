@@ -3,13 +3,21 @@ _G.JoinTeam = "Pirates" -- Pirates / Marines
 _G.Stop_If_Has_Items = true
 --thong bao
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Violet> CBin Hub Version <Color=/>"):Display()
+Notification.new("<Color=Red> CBin Hub Version <Color=/>"):Display()
 wait(0.5)
 Notification.new("<Color=Cyan> By binhackerlo <Color=/>"):Display()
 wait(1)
 Notification.new("<Color=Yellow> start up game...<Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 3 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 2 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 1 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> START! <Color=/>"):Display()
 wait(3)
-Notification.new("<Color=Yellow>start the blox fruit script Auto Chest!<Color=/>"):Display()
+Notification.new("<Color=Cyan>start the blox fruit script Auto Chest!<Color=/>"):Display()
 repeat
     wait()
 until game.Players.LocalPlayer
