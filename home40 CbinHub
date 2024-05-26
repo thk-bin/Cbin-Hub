@@ -1,4 +1,4 @@
-repeat wait(1) until game:IsLoaded()
+repeat wait(1) until game:IsLoaded()                              Alchemy
 local AlchemyNotify = function(Text_i,Duration_i)
     game.StarterGui:SetCore("SendNotification", {
         Title = "CBin Hub",
@@ -14,10 +14,13 @@ wait(0.1)
 AlchemyNotify("discord.gg/YqPUqwaq",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>CBin Hub<Color=/>"):Display()
+Notification.new("<Color=Cyan> CBin Hub Version <Color=/>"):Display()
 wait(0.5)
-Notification.new("<Color=Yellow> By binhackerlo<Color=/>"):Display()
+Notification.new("<Color=Cyan> By binhackerlo<Color=/>"):Display()
 wait(1)
+Notification.new("<Color=Yellow> start up game...<Color=/>"):Display()
+wait(3)
+Notification.new("<Color=Yellow>start the blox fruit script!<Color=/>"):Display()
 repeat
     wait()
 until game.Players.LocalPlayer
@@ -26,12 +29,12 @@ local ui_link = "https://raw.githubusercontent.com/ZoiIntra/Dec/main/afsZz.lua"
 local a = loadstring(game:HttpGet(ui_link))()
 local a = a:Window("Free Version | Blox Fruit")
 local HomePage = a:Tab("CBin Hub", "rbxassetid://17454552468")
-local Main = a:Tab("Tap Main", "rbxassetid://17454552468")
+local Main = a:Tab("Tap Main", "rbxassetid://16901811785")
 local Set = a:Tab("Tap Setting", "rbxassetid://16902732953")
 local Farm = a:Tab("Tap Farm", "rbxassetid://16902732953")
 local Stats = a:Tab("Tap Stats", "rbxassetid://16902732953")
 local Race = a:Tab("Tap Race", "rbxassetid://16902732953")
-local Event = a:Tab("Tap Event", "rbxassetid://16902732953")
+local Event = a:Tab("Tap Sea Even", "rbxassetid://16902732953")
 local Tele = a:Tab("Tap Teleport", "rbxassetid://16902732953")
 local Player = a:Tab("Tap Player", "rbxassetid://16902732953")
 local DemonFruit = a:Tab("Tap Devil Fruit", "rbxassetid://16902732953")
@@ -39,7 +42,7 @@ local Raid = a:Tab("Tap Raid", "rbxassetid://16902732953")
 local Shop = a:Tab("Tap Shop", "rbxassetid://16902732953")
 local Misc = a:Tab("Tap Misc", "rbxassetid://16902732953")
 
-HomePage:Seperator("CBin Hub")
+HomePage:Seperator("CBin Hub Version")
 
 HomePage:Label("Blox Fruits | Version")
 
