@@ -1,7 +1,7 @@
 --jointeam
 _G.JoinTeam = "Pirates" -- Pirates / Marines
 _G.Stop_If_Has_Items = true
---thong bao
+--thong bao game
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 Notification.new("<Color=Green> CBin Hub Version <Color=/>"):Display()
 wait(2)
@@ -27,7 +27,7 @@ Notification.new("<Color=Yellow> START! <Color=/>"):Display()
 repeat
     wait()
 until game.Players.LocalPlayer
---Fix Lag
+--Fix Lag game
 for _,v in pairs(workspace:GetDescendants()) do
 if v.ClassName == "Part"
 or v.ClassName == "SpawnLocation"
@@ -37,7 +37,7 @@ or v.ClassName == "MeshPart" then
 v.Material = "Plastic"
 end
 end
---seting
+--seting fram
 getgenv().Server_Hop = true
 getgenv().Chest_Farm = true
 getgenv().wait_Time = 25 -- Seconds
@@ -56,7 +56,7 @@ Duration = Number,
 })
 game.StarterGui:SetCore("SendNotification", {
 Title = "Link Sever Discord",
-Text = "https://discord.gg/ZDvf8wZw",
+Text = "https://discord.gg/YqPUqwaq",
 Icon = "rbxassetid://17433748013",
 Duration = Number,
 })
