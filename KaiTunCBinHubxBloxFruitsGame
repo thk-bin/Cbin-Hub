@@ -3,8 +3,10 @@ _G.JoinTeam = "Pirates" -- Pirates / Marines
 _G.Stop_If_Has_Items = true
 --thong bao
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Red> CBin Hub Version <Color=/>"):Display()
+Notification.new("<Color=Green> CBin Hub Version <Color=/>"):Display()
 wait(0.5)
+Notification.new("<Color=Red> Cảnh Báo: Không Chọn Team Khi  Khởi Chạy Kịch Bản!! <Color=/>"):Display()
+wait(1)
 Notification.new("<Color=Cyan> By binhackerlo <Color=/>"):Display()
 wait(1)
 Notification.new("<Color=Yellow> start up game...<Color=/>"):Display()
