@@ -2,6 +2,37 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
+-- thong bao
+wait(0.1)
+AlchemyNotify("Thanks for using CBin Hub!",5)
+wait(0.1)
+AlchemyNotify("https://discord.gg/YqPUqwaq",5)
+wait(0.5)
+local Notification = require(game:GetService("ReplicatedStorage").Notification)
+Notification.new("<Color=Cyan>Script CBin Hub<Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Cyan> By Home_40 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> start up game...<Color=/>"):Display()
+wait(3)
+Notification.new("<Color=Cyan>start the blox fruit script Fram !<Color=/>"):Display()
+wait(2)
+Notification.new("<Color=Purple> Join Discord Me! <Color=/>"):Display()
+wait(0.5)
+Notification.new("<Color=Purple> CBin Hub | COMMUNITY <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 3 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 2 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> 1 <Color=/>"):Display()
+wait(1)
+Notification.new("<Color=Yellow> START! <Color=/>"):Display()
+wait(1)
+repeat
+    wait()
+until game.Players.LocalPlayer
+----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "CBin Hub" .. Fluent.Version,
     SubTitle = "By Home_40",
@@ -3422,7 +3453,7 @@ ToggleAutoW:OnChanged(function(Value)
         end
         for r, v in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v:IsA("MeshPart") then
-                if v.MeshId == "rbxassetid://6745037796" then
+                if v.MeshId == "rbxassetid://16902732953" then
                     return v
                 end
             end
@@ -4810,8 +4841,8 @@ function InfAbility()
             inf.RotSpeed = NumberRange.new(999, 9999)
             inf.Rotation = NumberRange.new(0, 0)
             inf.Speed = NumberRange.new(30, 30)
-            inf.SpreadAngle = Vector2.new(360, 360)
-            inf.Texture = "rbxassetid://243098098"
+            inf.SpreadAngle = Vector2.new(340, 340)
+            inf.Texture = "rbxassetid://17454552468"
             inf.VelotyInheritance = 0
             inf.ZOffset = 2
             inf.Transparency = NumberSequence.new(0)
@@ -5390,7 +5421,7 @@ Tabs.Fruit:AddButton({
 	Title = "Rain Fruit",
 	Description = "",
 	Callback = function()
-        for i, v in pairs(game:GetObjects("rbxassetid://14759368201")[1]:GetChildren()) do
+        for i, v in pairs(game:GetObjects("rbxassetid://16902732953")[1]:GetChildren()) do
             v.Parent = game.Workspace.Map
             v:MoveTo(game.Players.LocalPlayer.Character.PrimaryPart.Position + Vector3.new(math.random(-50, 50), 100, math.random(-50, 50)))
             if v.Fruit:FindFirstChild("AnimationController") then
@@ -6513,7 +6544,7 @@ Tabs.Misc:AddButton({
 		for k, v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy" .. v, true) == 1 then
 				local huhu = Instance.new("ImageLabel", MeleeG)
-				huhu.Image = "rbxassetid://9945562382"
+				huhu.Image = "rbxassetid://16902732953"
 				huhu.ImageRectSize = Vector2.new(100, 100)
 				huhu.ImageRectOffset = ListHuhu[v] * 100
 			end
