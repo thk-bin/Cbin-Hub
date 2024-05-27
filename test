@@ -2,31 +2,6 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
---thong bao
-wait(0.1)
-AlchemyNotify("Thanks for using CBin Hub!",5)
-wait(0.1)
-AlchemyNotify("https://discord.gg/YqPUqwaq",5)
-wait(0.5)
-local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan> Script CBin Hub <Color=/>"):Display()
-wait(0.5)
-Notification.new("<Color=Yellow> Create By Home_40 <Color=/>"):Display()
-wait(0.5)
-Notification.new("<Color=Yellow> Loads Games... <Color=/>"):Display()
-wait(3)
-Notification.new("<Color=Cyan> Start The Blox Fruit Script Fram! <Color=/>"):Display()
-wait(2)
-Notification.new("<Color=Purple> Join Discord Me! <Color=/>"):Display()
-wait(0.5)
-Notification.new("<Color=Purple> CBin Hub | COMMUNITY <Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Yellow> START SCRIPT! <Color=/>"):Display()
-wait(1)
-repeat
-    wait()
-until game.Players.LocalPlayer
---phan fram
 local Window = Fluent:CreateWindow({
     Title = "CBin Hub" .. Fluent.Version,
     SubTitle = "By Home_40",
@@ -4835,7 +4810,7 @@ function InfAbility()
             inf.RotSpeed = NumberRange.new(999, 9999)
             inf.Rotation = NumberRange.new(0, 0)
             inf.Speed = NumberRange.new(30, 30)
-            inf.SpreadAngle = Vector2.new(340, 340)
+            inf.SpreadAngle = Vector2.new(350, 350)
             inf.Texture = "rbxassetid://17454552468"
             inf.VelotyInheritance = 0
             inf.ZOffset = 2
