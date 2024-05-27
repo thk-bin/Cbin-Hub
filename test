@@ -2,37 +2,31 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
--- thong bao
+--thong bao
 wait(0.1)
 AlchemyNotify("Thanks for using CBin Hub!",5)
 wait(0.1)
 AlchemyNotify("https://discord.gg/YqPUqwaq",5)
 wait(0.5)
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>Script CBin Hub<Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Cyan> By Home_40 <Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Yellow> start up game...<Color=/>"):Display()
+Notification.new("<Color=Cyan> Script CBin Hub <Color=/>"):Display()
+wait(0.5)
+Notification.new("<Color=Yellow> Create By Home_40 <Color=/>"):Display()
+wait(0.5)
+Notification.new("<Color=Yellow> Loads Games... <Color=/>"):Display()
 wait(3)
-Notification.new("<Color=Cyan>start the blox fruit script Fram !<Color=/>"):Display()
+Notification.new("<Color=Cyan> Start The Blox Fruit Script Fram! <Color=/>"):Display()
 wait(2)
 Notification.new("<Color=Purple> Join Discord Me! <Color=/>"):Display()
 wait(0.5)
 Notification.new("<Color=Purple> CBin Hub | COMMUNITY <Color=/>"):Display()
 wait(1)
-Notification.new("<Color=Yellow> 3 <Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Yellow> 2 <Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Yellow> 1 <Color=/>"):Display()
-wait(1)
-Notification.new("<Color=Yellow> START! <Color=/>"):Display()
+Notification.new("<Color=Yellow> START SCRIPT! <Color=/>"):Display()
 wait(1)
 repeat
     wait()
 until game.Players.LocalPlayer
-----------------------------------------------------------------------------------------------------------------------------------------------
+--phan fram
 local Window = Fluent:CreateWindow({
     Title = "CBin Hub" .. Fluent.Version,
     SubTitle = "By Home_40",
