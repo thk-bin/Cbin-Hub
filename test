@@ -1,18 +1,3 @@
---Thong Bao
-wait(0.1)
-AlchemyNotify("Thanks for using CBin Hub!",5)
-wait(0.1)
-AlchemyNotify("discord.gg/dUdzZskBCC",5)
-wait(0.5)
-local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>CBin Hub Script<Color=/>"):Display()
-wait(0.5)
-Notification.new("<Color=Yellow>Create By Home_40<Color=/>"):Display()
-wait(1)
-repeat
-    wait()
-until game.Players.LocalPlayer
---Main
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
