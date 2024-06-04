@@ -48,11 +48,6 @@ getgenv().WebhookSetting = {
     OnscriptChanged = true
 }
 getgenv().FixLag = true
-getgenv().Cbin = false
-getgenv().Cbin2 = false
-getgenv().FixCrash = false
-getgenv().FixLag2 = true
-getgenv().FixCrash2 = false
 getgenv().AutoLoad = false
 end
 end
