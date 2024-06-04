@@ -37,15 +37,25 @@ end
 end
 --executor url
 getgenv().WebhookSetting = {
-    Enable = true,
+    Enable = true
     Url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLhBpwO9z7AVyuuJHVuQoQM7C535nf8qMbQ&s",
-    Embed = true,
-    StoredFruit = true,
-    ImageEmbed = true,
-    CustomImage = false,
+    Embed = true
+    StoredFruit = true
+    ImageEmbed = true
+    CustomImage = false
     CustomImageUrl = "https://discord.com/api/webhooks/1247466094076362814/DtY35HuPc43VlpV7SP_WOHLF3p_VjIpWzcgzdmSQBfRaG5uJIRrEagL939sl5v64h0St", --Your Url
-    OnServerHop = true,
+    OnServerHop = true
+    OnscriptChanged = true
 }
+getgenv().FixLag = true
+getgenv().Cbin = false
+getgenv().Cbin2 = false
+getgenv().FixCrash = false
+getgenv().FixLag2 = true
+getgenv().FixCrash2 = false
+getgenv().AutoLoad = false
+end
+end
 --seting fram
 getgenv().Server_Hop = true
 getgenv().Chest_Farm = true
